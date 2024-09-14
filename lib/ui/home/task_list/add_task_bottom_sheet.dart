@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:todo_list/ui/dialog_utils.dart';
 import '../../../database/model/task.dart';
-import '../../../firebase_utils.dart';
+import '../../../database/firebase_utils.dart';
 import '../providers/auth_provider.dart';
 import '../providers/list_provider.dart';
 

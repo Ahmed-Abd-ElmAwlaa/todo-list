@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:todo_list/database/model/my_user.dart';
-import 'package:todo_list/firebase_utils.dart';
+import 'package:todo_list/database/firebase_utils.dart';
 import 'package:todo_list/my_theme.dart';
 import 'package:todo_list/ui/dialog_utils.dart';
 import '../../../validation_utils.dart';

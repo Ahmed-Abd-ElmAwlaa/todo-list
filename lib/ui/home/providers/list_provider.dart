@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import '../../../database/model/task.dart';
-import '../../../firebase_utils.dart';
+import '../../../database/firebase_utils.dart';
 
 class ListProvider extends ChangeNotifier{
   List<Task>taskList=[];

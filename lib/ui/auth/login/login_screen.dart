@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todo_list/firebase_utils.dart';
+import 'package:todo_list/database/firebase_utils.dart';
 import '../../../my_theme.dart';
 import '../../../validation_utils.dart';
 import '../../components/custom_form_field.dart';

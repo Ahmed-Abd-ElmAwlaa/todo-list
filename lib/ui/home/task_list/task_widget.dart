@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:provider/provider.dart';
 import '../../../database/model/task.dart';
-import '../../../firebase_utils.dart';
+import '../../../database/firebase_utils.dart';
 import '../../../my_theme.dart';
 import '../providers/auth_provider.dart';
 import '../providers/list_provider.dart';

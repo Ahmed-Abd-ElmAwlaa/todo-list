@@ -1,7 +1,7 @@
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:todo_list/database/model/my_user.dart';
-import 'database/model/task.dart';
+import 'model/task.dart';
 
 class FirebaseUtils{
   /// task collection
