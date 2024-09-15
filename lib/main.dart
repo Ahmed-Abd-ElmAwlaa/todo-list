@@ -39,7 +39,8 @@ class TodoList extends StatelessWidget {
         LoginScreen.routeName : (_)=>LoginScreen(),
         HomeScreen.routeName:(context) => HomeScreen(),
       },
-      initialRoute: SplashScreen.routeName);
+      initialRoute: SplashScreen.routeName
+    );
   }
 }
 

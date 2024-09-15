@@ -6,7 +6,6 @@ import 'package:todo_list/my_theme.dart';
 import 'package:todo_list/ui/dialog_utils.dart';
 import '../../../validation_utils.dart';
 import '../../components/custom_form_field.dart';
-import '../../home/home_screen.dart';
 import '../login/login_screen.dart';
 
 class RegisterScreen extends StatefulWidget {
@@ -19,20 +18,20 @@ class _RegisterScreenState extends State<RegisterScreen> {
   var formKey = GlobalKey<FormState>();
 
   var nameController =
-  //TextEditingController();
-  TextEditingController(text: 'Ahmed');
+  TextEditingController();
+  //TextEditingController(text: 'Ahmed');
 
   var emailController =
-  //TextEditingController();
-  TextEditingController(text: 'ahmed@route.com');
+  TextEditingController();
+  //TextEditingController(text: 'ahmed@gmail.com');
 
   var passwordController =
-  //TextEditingController();
-  TextEditingController(text: '123456');
+  TextEditingController();
+  //TextEditingController(text: '123456');
 
   var passwordConfirmationController =
-  //TextEditingController();
-  TextEditingController(text: '123456');
+  TextEditingController();
+  //TextEditingController(text: '123456');
 
   @override
   Widget build(BuildContext context) {
