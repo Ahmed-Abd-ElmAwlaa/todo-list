@@ -19,20 +19,20 @@ class _RegisterScreenState extends State<RegisterScreen> {
   var formKey = GlobalKey<FormState>();
 
   var nameController =
-  //TextEditingController();
-  TextEditingController(text: 'Ahmed');
+  TextEditingController();
+  //TextEditingController(text: 'Ahmed');
 
   var emailController =
-  //TextEditingController();
-  TextEditingController(text: 'ahmed@route.com');
+  TextEditingController();
+  //TextEditingController(text: 'ahmed@route.com');
 
   var passwordController =
-  //TextEditingController();
-  TextEditingController(text: '123456');
+  TextEditingController();
+  //TextEditingController(text: '123456');
 
   var passwordConfirmationController =
-  //TextEditingController();
-  TextEditingController(text: '123456');
+  TextEditingController();
+  //TextEditingController(text: '123456');
 
   @override
   Widget build(BuildContext context) {

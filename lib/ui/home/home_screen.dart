@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
     Provider.of<ListProvider>(context);
     return Scaffold(
       appBar: AppBar(
-        title:Text("To Do List${authProvider.currentUser?.name??''}",
+        title:Text("ToDo List  , ${authProvider.currentUser?.name?? ''}",
             style: Theme.of(context).textTheme.titleLarge),
         actions: [
           IconButton(onPressed:(){

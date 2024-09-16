@@ -152,7 +152,7 @@ class _AddTasKBottomSheetState extends State<AddTasKBottomSheet> {
     //  }).
       timeout(
         const Duration(
-          milliseconds: 500,
+          milliseconds: 300,
         ),
         onTimeout: () {
           listProvider.
