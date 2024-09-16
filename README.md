@@ -1,4 +1,4 @@
-# news_app
+# todo list_app
 
 
 ## description
