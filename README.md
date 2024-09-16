@@ -1,7 +1,10 @@
 # todo list_app
 
 
-## description
+Technologies : Firebase( Authentication, Firestore Database), provider.
+
+
+Features : add tasks for every user, delete tasks.
 
 
 ## Video for this app :
