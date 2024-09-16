@@ -136,25 +136,27 @@ class _AddTasKBottomSheetState extends State<AddTasKBottomSheet> {
           title: title,
           description: description,
           dateTime: selectedDate);
-      DialogUtils.showLoadingDialog(context,'Loading');
+      //DialogUtils.showLoadingDialog(context,'Loading');
       var authProvider =
       Provider.of<AuthenticationProvider>(context,listen: false);
       FirebaseUtils.
       addTaskToFireStore(task,authProvider.currentUser?.id??'').
-        then((value){
-          DialogUtils.hideDialog(context);
-          DialogUtils.showMessage(context, 'Task added successfully',
-          postActionName: 'Ok',
-          posAction: (){
-            Navigator.pop(context);
-          },);
-      }).
+        //then((value){
+          //DialogUtils.hideDialog(context);
+          // DialogUtils.showMessage(context,
+          //   'Task added successfully',
+          // postActionName: 'Ok',
+          // posAction: (){
+          //   Navigator.pop(context);
+          // },);
+    //  }).
       timeout(
         const Duration(
           milliseconds: 500,
         ),
         onTimeout: () {
-          listProvider.refreshTasks(authProvider.currentUser?.id??'');
+          listProvider.
+          refreshTasks(authProvider.currentUser?.id??'');
           Navigator.pop(context);
         },
       );
